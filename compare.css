@@ -1,0 +1,49 @@
+body {
+  background-image : url("https://t4.ftcdn.net/jpg/04/89/21/03/240_F_489210345_dgpcoMPLNhXlREWAFNRddUw480OHd3FU.jpg") ;
+}
+
+#results {
+display : none;
+}
+
+table, th, td {
+margin-left:auto;
+margin-right:auto;
+border-collapse: collapse;
+table-layout:fixed;
+border-spacing: 30px;
+width : 75%;
+
+padding-bottom: 20px;
+padding-top: 20px; 
+}
+   
+#medals {
+width : 75%;
+}
+
+/*
+Here, I have defined two seperate classes for the different types of table rows.
+Initially, I had the default values : (color: #777; font-weight: 400;) within the 
+table, th, td descriptors however I was unable to override this when it came to
+the iso-row class. I therefore had to manually implement the non-iso class for every
+row that did not correspond to one of the ISO-ID's provided by the user.
+*/
+
+.iso-row {
+color: blue; 
+font-weight: 800; 
+}
+
+.non-iso {
+color: #777;
+font-weight: 400;
+}
+
+
+.DivWithScroll{
+max-height: 400px;
+overflow:scroll;
+overflow-x:hidden;
+}
+

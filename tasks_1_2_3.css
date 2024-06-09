@@ -1,0 +1,28 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: bisque;
+}
+.center {
+	text-align:center;
+}
+body,td,th {
+	color: brown; 
+}
+.larger {
+	font-size:larger;
+	text-align:left;
+}
+
+.fixed {
+	font-family: Courier, monospace;
+	white-space: pre;
+	background-color:cornsilk;
+}
+
+table, th, td {
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout:fixed;
+}
